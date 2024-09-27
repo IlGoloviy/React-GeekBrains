@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    background: #a0a0a0;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu-logo img {
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    list-style-type: none;
+    border: 1px solid #808080;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.menu-active {
+    background: #e1ecea;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    padding: 10px 15px;
+}
+
+.desc {
+    padding: 5px 25px;
+    background: #e1ecea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-list {
+    padding: 25px 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-card {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding-bottom: 15px;
+    width: 300px;
+    margin: 0 10px;
+    margin-bottom: 25px;
+}
+
+.user-card h3 {
+    background: #93f8e6;
+    padding: 5px 15px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.user-card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.user-card h5 {
+    margin: 10px 15px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.user-card > p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.user-card > p > span:first-child {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+.user-card > p > span:last-child {
+    border: 1px solid #a0a0a0;
+    padding: 3px 5px;
+    border-radius: 59px;
+    color: #7c7c7c;
+}
+
+.user-card-tabledesc,
+.user-card-tabletext {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.user-card-tabledesc span {
+    padding: 5px;
+    background: #34da5d;
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.user-card-tabletext {
+    border: 1px solid #34da5d;
+}
+
+.user-card-tabletext span {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.main-page {
+    height: calc(100vh - 109px - 68px - 100px);
+    box-sizing: border-box;
+}
+
+.spiner {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dotted red;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.spiner > p {
+    padding: 10px;
+}
+
+.user-page {
+    height: calc(100vh - 109px - 47px - 68px - 13px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 25px;
+}
+
+.user-page-posts {
+    padding: 15px;
+    height: 100%;
+    overflow: auto;
+}
+
+.blank-page {
+    height: calc(100vh - 109px - 47px - 68px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-list {
+    padding: 25px 25px 0;
+}
+
+.post-card {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post-card-link {
+    text-decoration: none;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.post-card-desc {
+    margin-bottom: 5px;
+    text-align: center;
+    background: #b4d4cf;
+    padding: 5px 0;
+}
+
+.post-card-text {
+    font-style: italic;
+}
+
+.post-page {
+    margin: 0 auto;
+    height: calc(100vh - 109px - 47px - 68px - 3px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.post-page-comments {
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comment-list {
+    display: flex;
+    padding: 25px 15px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comment-card {
+    width: 190px;
+    margin: 0 10px 10px;
+    border: 1px dotted #3d524f;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.comment-link {
+    text-decoration: none;
+    display: block;
+}
+
+.comment-desc {
+    padding: 5px;
+    text-align: center;
+    color: #cbf1ec;
+    background: #3d524f;
+    border-radius: 10px 10px 0 0;
+}
+
+.comment-text {
+    padding: 5px 15px;
+}
+
+.comment-email {
+    color: #3d524f;
+    font-size: 12px;
+    padding: 5px 15px;
+    background: #b4d4cf;
+    border-radius: 0 0 10px 10px;
+}
+
+.comment-page {
+    height: calc(100vh - 109px - 47px - 21px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.arrow {
+    font-size: 45px;
+    font-weight: bolder;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.arrow:nth-child(4) {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* flux */
+
+.link-add_post {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.btn-add_post {
+    background: #22e453;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-add_post:hover {
+    border: 1px solid #1ec448;
+}
+
+.modal-add_post {
+    height: calc(100vh - 109px - 47px - 68px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-add_post > label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 40%;
+    font-size: 20px;
+}
+
+.modal-add_post > label span {
+    padding: 0 5px;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+}
+
+.modal-options,
+.modal-input,
+.modal-text {
+    font-size: 18px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(169, 169, 169);
+    padding: 3px 5px;
+    box-sizing: border-box;
+}
+
+.modal-options:focus,
+.modal-input:focus,
+.modal-text:focus {
+    border: 1px solid #22e453;
+    outline: none;
+}
+
+.modal-add_post > button {
+    padding: 5px;
+    background: #22e453;
+    border: 1px solid #1ec448;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
